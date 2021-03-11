@@ -1,4 +1,6 @@
 import './App.css';
+import LoginPage from './components/LoginPage';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
      <ul>
       <li>Home</li>
     </ul>
+     <TodoList/>
+     <LoginPage/>
     </div>
   );
 }
